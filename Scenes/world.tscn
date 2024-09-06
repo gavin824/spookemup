@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://coa5bapd6lnbi"]
+
+[ext_resource type="Texture2D" uid="uid://cltfgl1xh57hp" path="res://Assets/Skybox Pyramid outside.png" id="1_th6as"]
+
+[node name="World" type="Node2D"]
+
+[node name="Background" type="Node2D" parent="."]
+
+[node name="TextureRect" type="TextureRect" parent="Background"]
+offset_right = 1456.0
+offset_bottom = 240.0
+texture = ExtResource("1_th6as")
+stretch_mode = 1
